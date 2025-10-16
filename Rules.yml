@@ -1,0 +1,16 @@
+doble_venta:
+  condiciones:
+    tipo_caso: doble_venta
+    comprador2_inscribe_primero: sí
+    comprador1_inscribe: no
+  analisis: "Se aplica la regla de prioridad registral. El segundo comprador inscribe primero, adquiriendo preferencia conforme al art. 1473 CC y art. 32 LH."
+  conclusion: "El comprador 2 prevalece sobre el comprador 1 por prioridad en el Registro."
+  riesgos: "Posible litigio si comprador 1 alega mala fe del segundo."
+
+admin_no_inscrito:
+  condiciones:
+    tipo_caso: admin_no_inscrito
+    nombramiento_inscrito: no
+  analisis: "El nombramiento no inscrito no es oponible a terceros de buena fe según art. 21 CCom."
+  conclusion: "El acto del administrador no inscrito no surte efectos frente a terceros protegidos."
+  riesgos: "Responsabilidad interna y necesidad de regularizar la inscripción."
